@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Contact</title>
+        <link rel="stylesheet" href="Contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="menu">
+            <h1 class="heading">Contact Me</h1>
+        </div>
+
+        <div>
+            <!-- contact section-->
+            <section id="contact" style="float: left;">
+                <div class="container mt-3 contactContent">
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                            <div class="map">
+                                <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Sagwara&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div>
+                                <a class="googlehtml" href="https://www.embed-map.com" id="authorizemaps-data">https://www.embed-map.com</a>
+                                <style>#googlemaps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="containerForm">
+                    <form method="post" name="google-sheet" autocomplete="off">           
+                        <div class="form-group">
+                            <label for="">Name:</label>
+                            <input name="Name" type="text" required placeholder="Enter Your name" value=""><br>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="">Email:</label>                
+                            <input name="Email" type="email" required placeholder="Enter Your Email" value=""><br>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="">Contact info:</label>    
+                            <input name="Contact" type="text" required placeholder="Enter Your Phone No." value=""><br>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="">Subject:</label>                
+                            <input name="Subject" type="text" required placeholder="Please Enter Subject" value=""><br>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="">Project Details:</label>                
+                            <textarea name="Project" value="" cols="20" rows="7"  required></textarea><br>
+                        </div>
+        
+                        <div class="form-group">
+                            <button type="reset" id="R">Reset</button>
+                            <button type="submit" name="Submit" value="Login">Contact Me</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzQO-AfllpNghHSwy7a4jGDOmzK9LiSzk-UcKnxVhcMCsXIwTJcE_UzakU0rrKf-bPn/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

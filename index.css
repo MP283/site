@@ -1,0 +1,1190 @@
+/*----------------------------INDEX----------------------------*/
+.backgroundIndex
+{
+    margin: 0px;
+    padding: 0px;
+    background: url(Mobile_B.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.menuIndex
+{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0px 0px 0px -10px;
+    padding: 0px 10px 0px 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.151);
+    position: fixed;
+}
+
+.leftmenuIndex
+{
+    margin: 10px;
+}
+
+.leftmenuIndex h4
+{
+    margin: -20px 0px 0px 0px;
+    padding: 20px 20px 20px 0%;
+
+    font-size: 15px;
+}
+
+.leftmenuIndex ul
+{
+    padding: 0px 10px 0px 0px;
+    margin: -65px 10px 0px 0px;
+    font-size: 10px;
+}
+
+.leftmenuIndex ul li
+{
+    
+    display:inline;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 65px;
+}
+
+.leftmenuIndex ul li a
+{
+    text-decoration: none;
+    color: cornsilk;
+    padding: 5px;
+    margin: -15px;
+
+}
+
+.leftmenuIndex ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+}
+
+.mainIndex
+{
+    margin-top:100px;
+    line-height: 40px;
+}
+
+.overlayIndex
+{
+    background: #0000008f;
+}
+
+.textIndex
+{
+    text-decoration:greenyellow;
+    font-family: 'Gwendolyn', cursive;
+    color: rgb(240, 233, 233);
+    font-size: 35px;
+    padding: 0px 5px 0px 5px;
+    margin: 115px 0px 0px 10px;
+    float: right;
+    text-align: center;
+}
+
+#Abut
+{
+    margin-left: 10px;
+    font-size: 7px;
+}
+
+.sections
+{
+    color: rgb(255, 0, 0);
+}
+
+.sections ul
+{
+    line-height: 90px;
+    margin: 0px 0px 0px -50px;
+    align-items: center;
+}
+
+.sections ul li
+{
+    display: inline;
+    font-size: 7px;
+    margin: 20px 0px 50px 5px;    
+    padding: 10px;
+    background: rgba(255, 0, 0, 0);
+    width: 10px;
+}
+
+.sections ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sections ul li:hover
+{
+    background-color: lightslategrey;
+    border-radius: 8px;
+}
+
+.last
+{
+    color: white;
+    background-color: rgba(0, 255, 0, 0);
+    text-align: center;
+    font-size: 7px;
+    margin: 120px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+}
+/*----------------------------INDEX----------------------------*/
+
+/*------------------About---------------------*/
+.backgroundAbout
+{
+    background-color: black;
+    background: url(2.jpg) no-repeat center/cover;
+    width: 106%;
+    height: 105vh;
+    position: relative;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: 0px;
+}
+
+.menuAbout
+{
+    background-color: rgba(248, 177, 177, 0.26);
+    position: fixed;
+    width:  100%;
+    height: 40px;
+}
+
+.menuAbout h1
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 2vh;
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+.mainAbout
+{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 95%;
+}
+
+#quoteAbout
+{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-family: 'Parisienne', cursive;
+    padding: 5px;
+    line-height: 45px;
+    font-size: 18px;
+    width: 90%;
+}
+
+.About p
+{
+    margin-top: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 95%;
+    margin-left: 10px;
+}
+
+.About ul
+{
+    margin-left: -25px;
+    margin-top: 25px;
+    line-height: 50px;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+}
+
+.About ul li
+{
+    margin-top: -20px;
+}
+
+.servicesAbout table tr th{
+    font-size: 10px;
+    width: 5%;
+}
+
+.servicesAbout table tr td 
+{
+    padding: 5px;
+    font-size: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.servicesAbout table tr th:hover
+{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 11px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.Services
+{
+    text-align: center;
+    font-size: 20px;
+}
+/*------------------About---------------------*/
+
+/*------------------Project---------------------*/
+.backgroundProject
+{
+    background: url(4.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    margin-top: -8px;
+    margin-left: -7.73px;
+}
+
+.menuProjects
+{
+    background-color: rgba(240, 248, 255, 0.253);
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.menuProjects h1
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.ironman
+{
+    margin: 30px 0px 0px 0px;
+}
+
+.ironman p
+{
+    width: 175px;
+    margin: 25px 10px 0px 0px;
+    padding: 0px;
+    float: right;
+    font-size: 11px;
+    background-color: rgba(0, 4, 255, 0);
+    color: rgb(255, 255, 255);
+
+    font-family: 'Noto Serif', serif;
+}
+
+.Ironplay
+{
+    margin: 0px 0px 0px 90px;
+    
+    background-color: rgb(255, 255, 255);
+    float: left;
+
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 8px;
+    border-radius: 5px;
+    transition: 0.3s ease background-color;
+}
+
+.Ironplay:hover
+{
+    background-color: rgb(100, 93, 93);
+}
+
+.ironlogo
+{
+    width: 100px;
+    margin: 0px 0px -10px -10px;
+}
+
+
+@media only screen and (min-width: 309px) 
+{
+    /*----------------------------INDEX----------------------------*/
+    .leftmenuIndex h4
+    {
+        font-size: 18px;
+    }
+
+    .leftmenuIndex ul
+    {
+        font-size: 11px;
+    }
+
+    #Abut
+    {
+        font-size: 8px;
+    }
+
+    .sections ul li
+    {
+        font-size: 8px;
+    }
+    /*----------------------------INDEX----------------------------*/
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        width: 200px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 120px;
+    }
+}
+
+@media only screen and (min-width: 338px) 
+{
+    .leftmenuIndex ul
+    {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    #Abut
+    {
+        font-size: 9px;
+    }
+
+    .sections ul li
+    {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        width: 230px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 120px;
+    }
+}
+
+@media only screen and (min-width: 354px) 
+{
+    .leftmenuIndex ul
+    {
+        margin-right: 20px;
+        padding-right: 0px;
+        font-size: 13.5px;
+    }
+
+    #Abut
+    {
+        margin-left: 15px;
+    }
+
+    .sections ul li
+    {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 375px) 
+{
+    /*----------------------------Index----------------------------*/
+    .leftmenuIndex h4
+    {
+        font-size: 18px;
+    }
+
+    .leftmenuIndex ul
+    {
+        margin-right: 10px;
+    }
+
+    .leftmenuIndex ul li a
+    {
+        margin: -5px;
+    }
+
+    #Abut
+    {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+    .sections ul li
+    {
+        font-size: 10px;
+        margin-left: 10px;        
+    }
+
+    .last
+    {
+        font-size: 7.5px;
+    }
+
+    .backgroundAbout
+    {
+        width: 104%;        
+    }
+
+    .menuAbout
+    {
+        width:  99.5%;        
+    }
+
+    #quoteAbout
+    {
+        font-size: 28px;
+    }
+    
+    .About p
+    {
+        margin-top: -30px;
+    }
+
+    .About ul
+    {
+        margin-left: -20px;
+        margin-top: 25px;
+        line-height: 50px;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 25px 20px 0px 0px;
+        width: 250px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 150px;
+    }    
+}
+
+@media only screen and (min-width: 425px) 
+{
+    .leftmenuIndex ul
+    {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    .leftmenuIndex ul li
+    {
+        margin-right: 23px;
+    }
+
+    #Abut
+    {
+        margin-left: 25px;
+        font-size: 11px;
+    }
+
+    .sections ul li
+    {        
+        font-size: 11px;        
+        margin-left: 15px;
+    }
+
+    .last
+    {
+        font-size: 8px;
+    }
+
+    /*------------------About---------------------*/    
+    .servicesAbout table tr th{
+        font-size: 15px;
+        width: 5%;
+    }
+    
+    .servicesAbout table tr td 
+    {
+        padding: 5px;
+        font-size: 15px;
+        width: 5%;
+        
+    }
+    
+    .servicesAbout table tr th:hover
+    {
+        background-color: rgba(0, 255, 255, 0);
+        font-size: 16px;
+        border: 1px solid green;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 30px 50px 0px 0px;
+        width: 280px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 10px 0px 0px 120px;
+    }   
+}
+
+@media only screen and (min-width: 440px) 
+{
+    #Abut
+    {
+        font-size: 13px;
+    }
+
+    .sections ul li
+    {
+        font-size: 13px;
+        margin: 0px -10px 0px 30px;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 30px 100px 0px 0px;
+        width: 250px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 10px 0px 0px 150px;
+    }  
+}
+
+@media only screen and (min-width: 540px) 
+{
+    .leftmenuIndex h4
+    {
+        font-size: 18px;
+    }
+
+    .leftmenuIndex ul
+    {
+        font-size: 14px;
+    }
+
+    #Abut
+    {
+        margin-left: 40px;
+        font-size: 14px;
+    }
+
+    .sections ul li
+    {
+        font-size: 14px;
+        margin-left: 40px;        
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 30px 130px 0px 0px;
+        width: 300px;
+        font-size: 12px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 160px;
+    }
+
+    .ironlogo
+    {
+        width: 110px;
+        margin: 0px 0px -10px -10px;
+    }
+}
+
+@media only screen and (min-width: 640px) 
+{
+    .leftmenuIndex ul li
+    {
+        margin: -5px 23px 0px 0px;
+    }
+
+    #Abut
+    {
+        margin-left: 60px;
+    }
+
+    .sections ul li
+    {
+        margin-left: 80px;        
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 40px 190px 0px 0px;
+        width: 310px;
+        font-size: 16px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 200px;
+        font-size: 12px;
+    }
+
+    .ironlogo
+    {
+        width: 150px;
+        margin: 0px 0px -10px -10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) 
+{
+    .backgroundIndex
+    {
+        background: url(PC_B.jpg) no-repeat center/cover;
+    }
+
+    .leftmenuIndex ul
+    {
+        margin-right: 20px;
+    }
+
+    .leftmenuIndex ul li
+    {
+        margin-right: 27px;
+    }
+
+    #Abut
+    {
+        margin-left: 80px;
+        font-size: 14px;
+    }
+
+    .sections ul li
+    {
+        margin-left: 100px;        
+    }
+
+    .last
+    {
+        font-size: 8.5px;        
+    }
+
+    /*------------------About---------------------*/
+
+    .backgroundAbout
+    {
+        width: 102%;
+    }
+
+    .menuAbout
+    {
+        width:  99.9%;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 50px 220px 0px 0px;
+        width: 400px;
+        font-size: 18px;
+    }
+    .Ironplay
+    {
+        margin: 0px 0px 0px 250px;
+        font-size: 12px;
+    }
+
+    .ironlogo
+    {
+        width: 150px;
+        margin: 0px 0px -10px -10px;
+    }
+
+}
+
+@media only screen and (min-width: 900px)
+{
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 50px 300px 0px 0px;
+        width: 400px;
+        font-size: 20px;
+    }
+    .Ironplay
+    {
+        margin: -20px 0px 0px 250px;
+        font-size: 16px;
+    }
+
+    .ironlogo
+    {
+        width: 200px;
+        margin: 0px 0px -10px -10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) 
+{
+    .leftmenuIndex h4
+    {
+        font-size: 20px;
+    }
+
+    .leftmenuIndex ul
+    {
+        font-size: 17px;
+    }
+
+    .leftmenuIndex ul li
+    {
+        margin-right: 40px;
+    }
+
+    #Abut
+    {
+        margin-left: 200px;
+        font-size: 15px;
+    }
+
+    .sections ul li
+    {
+        font-size: 15px;
+        margin-left: 200px;        
+    }
+
+    .last
+    {
+        font-size: 9px;
+    }
+
+    /*------------------About---------------------*/
+
+    #quoteAbout
+    {
+        margin-left: 35px;
+        font-size: 25px;
+    }
+
+    .About p
+    {
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+
+    .servicesAbout table tr th
+    {
+        font-size: 20px;
+        width: 5%;
+    }
+    
+    .servicesAbout table tr td 
+    {
+        padding: 5px;
+        font-size: 18px;
+        width: 5%;
+        
+    }
+    
+    .servicesAbout table tr th:hover
+    {
+        background-color: rgba(0, 255, 255, 0);
+        font-size: 21px;
+        border: 1px solid green;
+    }
+
+    .Services
+    {
+        font-size: 30px;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 70px 330px 0px 0px;
+        width: 500px;
+        font-size: 20px;
+    }
+    .Ironplay
+    {
+        margin: -10px 0px 0px 300px;
+        font-size: 16px;
+    }
+
+    .ironlogo
+    {
+        width: 200px;
+        margin: 0px 0px -10px -10px;
+    }
+
+    .menuProjects
+    {
+        height: 35px;
+    }
+    
+    .menuProjects h1
+    {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 1180px)
+{
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 70px 330px 0px 0px;
+        width: 600px;
+        font-size: 22px;
+    }
+    .Ironplay
+    {
+        margin: -10px 0px 0px 350px;
+        font-size: 16px;
+    }
+
+    .ironlogo
+    {
+        width: 200px;
+        margin: 0px 0px -10px -10px;
+    }
+}
+
+@media only screen and (min-width: 1300px)
+{
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 70px 370px 0px 0px;
+        width: 700px;
+        font-size: 24px;
+    }
+    .Ironplay
+    {
+        margin: -10px 0px 0px 350px;
+        font-size: 16px;
+    }
+
+    .ironlogo
+    {
+        width: 200px;
+        margin: 0px 0px -10px -10px;
+    }
+}
+
+/*SPECIAL WIDTH*/
+@media only screen and (width: 1366px)
+{
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 70px 370px 0px 0px;
+        width: 800px;
+        font-size: 26px;
+    }
+    .Ironplay
+    {
+        margin: -40px 0px 0px 630px;
+        font-size: 16px;
+        border-radius: 9px;
+    }
+
+    .ironlogo
+    {
+        width: 200px;
+        margin: 0px 0px -10px -10px;
+    }
+}
+
+@media only screen and (min-width: 1440px) 
+{
+    .leftmenuIndex ul
+    {
+        margin-right: 30px;
+    }
+
+    #Abut
+    {
+        margin-left: 250px;
+        font-size: 17px;
+    }
+
+    .sections ul li
+    {
+        font-size: 17px;
+        margin-left: 190px;
+    }
+
+    .last
+    {
+        font-size: 11px;
+    }
+
+    /*------------------About---------------------*/
+
+    .menuAbout
+    {
+        height: 50px;
+    }
+    
+    .menuAbout h1
+    {
+        font-size: 33px;
+    }    
+
+    .mainAbout
+    {
+        font-size: 30px;
+        width: 95%;
+    }
+
+    #quoteAbout
+    {
+        margin-left: 35px;
+        font-size: 25px;
+    }
+
+    .About ul
+    {
+        margin-left: -5px;
+        margin-top: 45px;
+        font-size: 20px;
+    }
+
+    .About p
+    {
+        font-size: 20px;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+
+    .servicesAbout table tr th
+    {
+        font-size: 23px;
+        width: 5%;
+    }
+    
+    .servicesAbout table tr td 
+    {
+        padding: 5px;
+        font-size: 20px;
+        width: 5%;     
+    }
+    
+    .servicesAbout table tr th:hover
+    {
+        background-color: rgba(0, 255, 255, 0);
+        font-size: 24px;
+        border: 1px solid green;
+    }
+
+    .Services
+    {
+        font-size: 32px;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 70px 370px 0px 0px;
+        width: 800px;
+        font-size: 28px;
+    }
+    .Ironplay
+    {
+        margin: -20px 0px 0px 350px;
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .ironlogo
+    {
+        width: 230px;
+    }
+
+    .menuProjects
+    {
+        height: 45px;
+    }
+    
+    .menuProjects h1
+    {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 2560px) 
+{
+    .menuIndex
+    {
+        height: 100px;
+    }
+
+    .leftmenuIndex h4
+    {
+        padding: 30px 20px 20px 30px;
+        font-size: 40px;
+    }
+
+    .leftmenuIndex ul
+    {
+        margin-right: 100px;
+        padding-right: 0px;
+        font-size: 30px;
+    }
+
+    .leftmenuIndex ul li
+    {
+        margin-right: 100px;
+    }
+
+    .textIndex
+    {
+        font-size: 55px;
+        margin: 250px 100px 0px 100px;
+    }
+
+    #Abut
+    {
+        margin-left: 400px;
+        font-size: 25px;
+    }
+
+    .sections ul li
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 400px;       
+    }
+
+    .last
+    {
+        margin-top: 300px;
+        font-size: 20px;        
+    }
+
+    /*------------------About---------------------*/
+    
+    .menuAbout
+    {
+        width:  100%;
+        height: 80px;
+    }
+    
+    .menuAbout h1
+    {
+        margin-left: 2vh;
+        margin-top: 8px;
+        font-size: 55px;
+    }
+    
+    .mainAbout
+    {
+        font-size: 50px;
+        width: 95%;
+    }
+    
+    #quoteAbout
+    {
+        margin-top: 0px;
+        margin-left: 150px;
+        font-size: 58px;
+        width: 90%;
+    }
+    
+    .About p
+    {
+        margin-top: -20px;
+        font-size: 38px;
+        line-height: 70px;
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    .About ul
+    {
+        margin-left: 5px;
+        margin-top: 55px;
+        font-size: 31px;
+        line-height: 100px;
+    }
+
+    .servicesAbout table tr th
+    {
+        font-size: 33px;
+        width: 5%;
+    }
+    
+    .servicesAbout table tr td 
+    {
+        padding: 5px;
+        font-size: 30px;
+        width: 5%;     
+    }
+    
+    .servicesAbout table tr th:hover
+    {
+        background-color: rgba(0, 255, 255, 0);
+        font-size: 35px;
+        border: 1px solid green;
+    }
+
+    .Services
+    {
+        font-size: 50px;
+    }
+
+    /*----------------------------PROJECT----------------------------*/
+    .ironman p
+    {
+        margin: 100px 800px 0px 0px;
+        width: 1400px;
+        font-size: 45px;
+    }
+    .Ironplay
+    {
+        margin: -30px 0px 0px 550px;
+        font-size: 38px;
+        padding: 6px;
+        border-radius: 20px;
+    }
+
+    .ironlogo
+    {
+        width: 350px;
+    }
+
+    .menuProjects
+    {
+        height: 75px;
+    }
+    
+    .menuProjects h1
+    {
+        margin-top: 5px;
+        font-size: 55px;
+    }
+}
